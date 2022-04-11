@@ -9,11 +9,65 @@ Infine stampa separatamente i 3 array.
 const arrayCars = [
     // Primo modello - Audi
     {
-        Marca: "Audi",
-        Modello: "A3",
-        Alimentazione: "benzina"
-    }
-
+        Marca: 'Audi',
+        Modello: 'A3',
+        Alimentazione: 'benzina'
+    },
+    // Secondo modello - BMW
+    {
+        Marca: 'BWM',
+        Modello: 'Serie 1',
+        Alimentazione: 'diesel'
+    },
+    // Terzo modello - BMW
+    {
+        Marca: 'BWM',
+        Modello: 'X5M Competition',
+        Alimentazione: 'diesel'
+    },
+    // Quarto modello - Audi
+    {
+        Marca: 'Audi',
+        Modello: 'A6',
+        Alimentazione: 'diesel'
+    },
+    // Quinto modello - Fiat
+    {
+        Marca: 'Fiat',
+        Modello: 'panda',
+        Alimentazione: 'diesel'
+    },
+    // Sesto modello - Fiat
+    {
+        Marca: 'Fiat',
+        Modello: 'Tipo',
+        Alimentazione: 'diesel'
+    },
+    // Settimo modello - Nissan
+    {
+        Marca: 'Nissan',
+        Modello: 'Micra',
+        Alimentazione: 'elettrico'
+    },
+    // Ottavo modello - Opel
+    {
+        Marca: 'Opel',
+        Modello: 'Astra',
+        Alimentazione: 'gpl'
+    },
+    // Nono modello - Volvo
+    {
+        Marca: 'Volvo',
+        Modello: 'XC90',
+        Alimentazione: 'elettrico'
+    },
+    // Decimo modello - Tesla
+    {
+        Marca: 'Tesla',
+        Modello: 'Model 3',
+        Alimentazione: 'elettrico'
+    },
 ]
 
+// Verifica in console log
 console.log(arrayCars);
