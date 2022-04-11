@@ -11,7 +11,7 @@ const arrayCars = [
     {
         Marca: 'Audi',
         Modello: 'A3',
-        Alimentazione: 'benzina'
+        Alimentazione: "benzina"
     },
     // Secondo modello - BMW
     {
@@ -71,3 +71,29 @@ const arrayCars = [
 
 // Verifica in console log
 console.log(arrayCars);
+
+// Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina,
+
+// Array auto benza
+const autoBenzina = arrayCars.filter(car => {
+    return car.Alimentazione === "benzina"
+})
+console.log(autoBenzina);
+
+// Array Auto Diesel
+const autoDiesel = arrayCars.filter(car => {
+    return car.Alimentazione === 'diesel'
+})
+console.log(autoDiesel);
+
+// Tutte le altre auto
+const otherCars = arrayCars.filter(car => {
+    if (car.Alimentazione === 'diesel') {
+        return false
+    } else if (car.Alimentazione === "benzina") {
+        return false
+    } else {
+        return true
+    }
+})
+console.log(otherCars);
