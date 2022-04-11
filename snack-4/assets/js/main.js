@@ -45,12 +45,13 @@ console.log(people);
 // Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e 
 // cognome e l’indicazione se può guidare, in base all’età.
 
+// Refactoring, aggiunti cognomi all'array
 const user_car = people.filter(element => {
     if (element.età < 18) {
-        console.log(`${element.nome} non può guidare`);  
+        console.log(`${element.nome} ${element.cognome} non può guidare`);  
         return true
     } else {
-        console.log(`${element.nome} può guidare`); 
+        console.log(`${element.nome} ${element.cognome} può guidare`); 
         return false
     }
 })
